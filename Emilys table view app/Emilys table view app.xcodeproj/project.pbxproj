@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062DEF6024D9B6A300BCAB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DEF5F24D9B6A300BCAB06 /* AppDelegate.swift */; };
+		062DEF6224D9B6A300BCAB06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DEF6124D9B6A300BCAB06 /* SceneDelegate.swift */; };
+		062DEF6424D9B6A300BCAB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DEF6324D9B6A300BCAB06 /* ViewController.swift */; };
+		062DEF6724D9B6A300BCAB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062DEF6524D9B6A300BCAB06 /* Main.storyboard */; };
+		062DEF6924D9B6A600BCAB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062DEF6824D9B6A600BCAB06 /* Assets.xcassets */; };
+		062DEF6C24D9B6A600BCAB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062DEF6A24D9B6A600BCAB06 /* LaunchScreen.storyboard */; };
+		062DEF7724D9B6A700BCAB06 /* Emilys_table_view_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DEF7624D9B6A700BCAB06 /* Emilys_table_view_appTests.swift */; };
+		062DEF8224D9B6A700BCAB06 /* Emilys_table_view_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DEF8124D9B6A700BCAB06 /* Emilys_table_view_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062DEF7324D9B6A700BCAB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062DEF5424D9B6A300BCAB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062DEF5B24D9B6A300BCAB06;
+			remoteInfo = "Emilys table view app";
+		};
+		062DEF7E24D9B6A700BCAB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062DEF5424D9B6A300BCAB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062DEF5B24D9B6A300BCAB06;
+			remoteInfo = "Emilys table view app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062DEF5C24D9B6A300BCAB06 /* Emilys table view app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emilys table view app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		062DEF5F24D9B6A300BCAB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		062DEF6124D9B6A300BCAB06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		062DEF6324D9B6A300BCAB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		062DEF6624D9B6A300BCAB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062DEF6824D9B6A600BCAB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		062DEF6B24D9B6A600BCAB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062DEF6D24D9B6A600BCAB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062DEF7224D9B6A700BCAB06 /* Emilys table view appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emilys table view appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		062DEF7624D9B6A700BCAB06 /* Emilys_table_view_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emilys_table_view_appTests.swift; sourceTree = "<group>"; };
+		062DEF7824D9B6A700BCAB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062DEF7D24D9B6A700BCAB06 /* Emilys table view appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emilys table view appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		062DEF8124D9B6A700BCAB06 /* Emilys_table_view_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emilys_table_view_appUITests.swift; sourceTree = "<group>"; };
+		062DEF8324D9B6A700BCAB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062DEF5924D9B6A300BCAB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF6F24D9B6A700BCAB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF7A24D9B6A700BCAB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062DEF5324D9B6A300BCAB06 = {
+			isa = PBXGroup;
+			children = (
+				062DEF5E24D9B6A300BCAB06 /* Emilys table view app */,
+				062DEF7524D9B6A700BCAB06 /* Emilys table view appTests */,
+				062DEF8024D9B6A700BCAB06 /* Emilys table view appUITests */,
+				062DEF5D24D9B6A300BCAB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062DEF5D24D9B6A300BCAB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062DEF5C24D9B6A300BCAB06 /* Emilys table view app.app */,
+				062DEF7224D9B6A700BCAB06 /* Emilys table view appTests.xctest */,
+				062DEF7D24D9B6A700BCAB06 /* Emilys table view appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062DEF5E24D9B6A300BCAB06 /* Emilys table view app */ = {
+			isa = PBXGroup;
+			children = (
+				062DEF5F24D9B6A300BCAB06 /* AppDelegate.swift */,
+				062DEF6124D9B6A300BCAB06 /* SceneDelegate.swift */,
+				062DEF6324D9B6A300BCAB06 /* ViewController.swift */,
+				062DEF6524D9B6A300BCAB06 /* Main.storyboard */,
+				062DEF6824D9B6A600BCAB06 /* Assets.xcassets */,
+				062DEF6A24D9B6A600BCAB06 /* LaunchScreen.storyboard */,
+				062DEF6D24D9B6A600BCAB06 /* Info.plist */,
+			);
+			path = "Emilys table view app";
+			sourceTree = "<group>";
+		};
+		062DEF7524D9B6A700BCAB06 /* Emilys table view appTests */ = {
+			isa = PBXGroup;
+			children = (
+				062DEF7624D9B6A700BCAB06 /* Emilys_table_view_appTests.swift */,
+				062DEF7824D9B6A700BCAB06 /* Info.plist */,
+			);
+			path = "Emilys table view appTests";
+			sourceTree = "<group>";
+		};
+		062DEF8024D9B6A700BCAB06 /* Emilys table view appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				062DEF8124D9B6A700BCAB06 /* Emilys_table_view_appUITests.swift */,
+				062DEF8324D9B6A700BCAB06 /* Info.plist */,
+			);
+			path = "Emilys table view appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062DEF5B24D9B6A300BCAB06 /* Emilys table view app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062DEF8624D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view app" */;
+			buildPhases = (
+				062DEF5824D9B6A300BCAB06 /* Sources */,
+				062DEF5924D9B6A300BCAB06 /* Frameworks */,
+				062DEF5A24D9B6A300BCAB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emilys table view app";
+			productName = "Emilys table view app";
+			productReference = 062DEF5C24D9B6A300BCAB06 /* Emilys table view app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		062DEF7124D9B6A700BCAB06 /* Emilys table view appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062DEF8924D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view appTests" */;
+			buildPhases = (
+				062DEF6E24D9B6A700BCAB06 /* Sources */,
+				062DEF6F24D9B6A700BCAB06 /* Frameworks */,
+				062DEF7024D9B6A700BCAB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062DEF7424D9B6A700BCAB06 /* PBXTargetDependency */,
+			);
+			name = "Emilys table view appTests";
+			productName = "Emilys table view appTests";
+			productReference = 062DEF7224D9B6A700BCAB06 /* Emilys table view appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		062DEF7C24D9B6A700BCAB06 /* Emilys table view appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062DEF8C24D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view appUITests" */;
+			buildPhases = (
+				062DEF7924D9B6A700BCAB06 /* Sources */,
+				062DEF7A24D9B6A700BCAB06 /* Frameworks */,
+				062DEF7B24D9B6A700BCAB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062DEF7F24D9B6A700BCAB06 /* PBXTargetDependency */,
+			);
+			name = "Emilys table view appUITests";
+			productName = "Emilys table view appUITests";
+			productReference = 062DEF7D24D9B6A700BCAB06 /* Emilys table view appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062DEF5424D9B6A300BCAB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Emily Gutierrez";
+				TargetAttributes = {
+					062DEF5B24D9B6A300BCAB06 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					062DEF7124D9B6A700BCAB06 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 062DEF5B24D9B6A300BCAB06;
+					};
+					062DEF7C24D9B6A700BCAB06 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 062DEF5B24D9B6A300BCAB06;
+					};
+				};
+			};
+			buildConfigurationList = 062DEF5724D9B6A300BCAB06 /* Build configuration list for PBXProject "Emilys table view app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 062DEF5324D9B6A300BCAB06;
+			productRefGroup = 062DEF5D24D9B6A300BCAB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062DEF5B24D9B6A300BCAB06 /* Emilys table view app */,
+				062DEF7124D9B6A700BCAB06 /* Emilys table view appTests */,
+				062DEF7C24D9B6A700BCAB06 /* Emilys table view appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062DEF5A24D9B6A300BCAB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062DEF6C24D9B6A600BCAB06 /* LaunchScreen.storyboard in Resources */,
+				062DEF6924D9B6A600BCAB06 /* Assets.xcassets in Resources */,
+				062DEF6724D9B6A300BCAB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF7024D9B6A700BCAB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF7B24D9B6A700BCAB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062DEF5824D9B6A300BCAB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062DEF6424D9B6A300BCAB06 /* ViewController.swift in Sources */,
+				062DEF6024D9B6A300BCAB06 /* AppDelegate.swift in Sources */,
+				062DEF6224D9B6A300BCAB06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF6E24D9B6A700BCAB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062DEF7724D9B6A700BCAB06 /* Emilys_table_view_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062DEF7924D9B6A700BCAB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062DEF8224D9B6A700BCAB06 /* Emilys_table_view_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062DEF7424D9B6A700BCAB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062DEF5B24D9B6A300BCAB06 /* Emilys table view app */;
+			targetProxy = 062DEF7324D9B6A700BCAB06 /* PBXContainerItemProxy */;
+		};
+		062DEF7F24D9B6A700BCAB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062DEF5B24D9B6A300BCAB06 /* Emilys table view app */;
+			targetProxy = 062DEF7E24D9B6A700BCAB06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		062DEF6524D9B6A300BCAB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062DEF6624D9B6A300BCAB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		062DEF6A24D9B6A600BCAB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062DEF6B24D9B6A600BCAB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062DEF8424D9B6A700BCAB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		062DEF8524D9B6A700BCAB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062DEF8724D9B6A700BCAB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		062DEF8824D9B6A700BCAB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		062DEF8A24D9B6A700BCAB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emilys table view app.app/Emilys table view app";
+			};
+			name = Debug;
+		};
+		062DEF8B24D9B6A700BCAB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emilys table view app.app/Emilys table view app";
+			};
+			name = Release;
+		};
+		062DEF8D24D9B6A700BCAB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emilys table view app";
+			};
+			name = Debug;
+		};
+		062DEF8E24D9B6A700BCAB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emilys table view appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bookcomic.Emilys-table-view-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emilys table view app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062DEF5724D9B6A300BCAB06 /* Build configuration list for PBXProject "Emilys table view app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062DEF8424D9B6A700BCAB06 /* Debug */,
+				062DEF8524D9B6A700BCAB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062DEF8624D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062DEF8724D9B6A700BCAB06 /* Debug */,
+				062DEF8824D9B6A700BCAB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062DEF8924D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062DEF8A24D9B6A700BCAB06 /* Debug */,
+				062DEF8B24D9B6A700BCAB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062DEF8C24D9B6A700BCAB06 /* Build configuration list for PBXNativeTarget "Emilys table view appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062DEF8D24D9B6A700BCAB06 /* Debug */,
+				062DEF8E24D9B6A700BCAB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062DEF5424D9B6A300BCAB06 /* Project object */;
+}
